@@ -1,4 +1,4 @@
-# Page
+# Correcion de 1er entrega
 
 Para esta entrega se reducirá un entrega, hasta el lunes 11:59....&#x20;
 

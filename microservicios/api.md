@@ -365,7 +365,7 @@ curl -X GET http://localhost:3000/
 def update_book(self, book_id, updated_data):
         book = self.get_book_by_id(book_id) #buscamos el libro con el metodo que creamos
         print(f'Book: {book}') 
-        if book: #existe ese libeo=-
+        if book: #existe ese libro
             for key, value in updated_data.items(): #si nos regresa el libro
                 if key in book: #si encuentra la llave en ese libro :D
                     book[key] = value
