@@ -66,7 +66,47 @@ Repository Guidelines
     b. Adhere to the  defined branch strategy to foster a streamlined development process.
 3. Evident  Repository
    1. visible, documentacion correcta
-   2.
+
+
+
+```
+
+
+|--FEATURE_MODULE
+|    |--node_modules
+|    |--app/
+|        |--layout.js
+|        |--page.jsx
+|    |--public
+|    |--components
+|    |--tests
+|        |--index.test.js
+|--.gitignore
+|--Dockerfile
+|--deployment.yml
+|--service.yml
+|--next.config.js
+|--jest.config.js
+|--jsconfig.json
+|--package-lock.json
+|--package.json
+|--README.md
+```
+
+{% code overflow="wrap" %}
+```
+
+import COMPONENTS from LIBRARY
+
+export default function MODULE_COMPONENT {
+
+    return(
+        Here should be defined the components or elements from the library such as MUI to create every part that 
+    
+    )
+};
+```
+{% endcode %}
 
 
 
