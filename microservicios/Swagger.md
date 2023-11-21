@@ -3,6 +3,12 @@
 **ENTREGA DE CALIFICACIONES PRESENCIAL 14 DE DICIEMBRE**
 Tienen que venir los integrantes, si alguno falta no se tomara en cuenta para calificación. 
 
+TODAS LAS CORRECIONES DEFRONT END CON LA API, IMPLEMENTANDO 4 APIS
+API debe tener SWAGGER
+Corregir pruebas unitarias, enfoque a funcionalidad. Pruebas unitarias en Python es adicional para API, no TESTING ni contenedores. Si se da la oportunidad para contenedores se considerará como extra.
+
+Revisión extra para el jueves 30 de diciembre. 
+
 
 # Swagger
 ## Documentacion de API
