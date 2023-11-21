@@ -51,23 +51,74 @@ Usando 3 octetos:
 
 Hay herramientas que te permiten identificar en base a los cambios, puede ser incluso en base al Git. Por ello es importante seguir un estandar en commits para poder identificar más facilmente los cambios realizaos. 
 
-*Ejemplo: Herramientas como Jira
-FIX (Unique_ID): Description
-FEAT
-BREAK
-MAJOR
-MINOR
-HELPFIX
-BUGFIX*
+*Ejemplo: Herramientas como Jira*
+*FIX (Unique_ID): Description*
+*FEAT*
+*BREAK*
+*MAJOR*
+*MINOR*
+*HELPFIX*
+*BUGFIX*
 --- 
 
 Todo el archivo de configuración lo toma el swagger par apoder mostrarlomas bonito sobre la funcionalidad.
 
 ---
 ---
-# React
 
-## 
+# COMO CONFIGURAR NUESTRO BACK END A NUESTRO FRONT
+
+AXIOS nos permitirá acceder de manera automatica al API
+
+Usar una carpeta *utils*  con un rchivo API.jsx
+
+Aqui se importa axios
+
+```
+API_BASE_URL = 'http://localhost:5000/api'
+```
+
+
+Creamos una función de tipo aincrona porque estamos esperando que se realice la petición
+
+Usar una ocnstante response = await axios.get();
+
+dentro del get colocamos la ruta para ello usamos comillas invertidas *`${API_BASE_URL}/books`*
+
+
+
+Una función asincrona por cada función a realizar. 
+
+
+
+En el componente se observa todo los errores y el handle qu realize para poder mandarlo a llamar...
+
+
+
+En nuestro archivo principal page importamos todo
+
+
+
+mapa -> diccionario, se usa book_id como el numero para poder identificar la tarjeta aunque no aparezca en ella. 
+
+
+
+
+CORS -> impide hacer peticiones de una web a otra
+Cross-Origin: https://aws.amazon.com/es/what-is/cross-origin-resource-sharing/
+
+Para cambiar esto se instala una nueva dependencia llamada Flask-Cors
+
+En app.py agregar una linea, no estoy segura de los parentesis...
+```
+CORS(app, resources={r'/api/books': ('origins':'http://localhost:3000') }) 
+```
+
+
+# Redireccionamiento sin Route
+Revisar ruteo, para ello debe colocarse una carpeta con el contexto en este caso books, en la cual se crea un archivo page.jsx en el cual en la parte en donde se quiere que redireccione colocamos un Link href='/books'
+
+
 
 
 
