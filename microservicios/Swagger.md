@@ -1,5 +1,8 @@
 
 **ENTREGA DE PROYECTO PRIMER MARTES DE LA PRIMERA SEMANA DE FINALES 5 DE DICIEMBRE**
+**ENTREGA DE CALIFICACIONES PRESENCIAL 14 DE DICIEMBRE**
+Tienen que venir los integrantes, si alguno falta no se tomara en cuenta para calificación. 
+
 
 # Swagger
 ## Documentacion de API
@@ -59,7 +62,8 @@ Hay herramientas que te permiten identificar en base a los cambios, puede ser in
 *MINOR*
 *HELPFIX*
 *BUGFIX*
---- 
+
+---
 
 Todo el archivo de configuración lo toma el swagger par apoder mostrarlomas bonito sobre la funcionalidad.
 
